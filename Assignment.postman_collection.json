@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "f5101f93-77f9-4b4c-8f78-1f861e982483",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ocr_Extraction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ImagePath",
+							"description": "# Select and pass Input image here",
+							"type": "file",
+							"src": "/C:/Users/H_7/Downloads/backend_engineer/backend_engineer/input/2.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/OCRExtraction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"OCRExtraction"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
